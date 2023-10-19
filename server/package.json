@@ -1,0 +1,20 @@
+{
+  "name": "pick-agents-backend",
+  "version": "1.0.0",
+  "description": "backend do software",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "Bruno Fernandes dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.2",
+    "postgres": "^3.4.0"
+  }
+}
